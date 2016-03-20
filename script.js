@@ -8,11 +8,6 @@ function calculateTip() {
     serviceQuality = document.getElementById("serviceQuality").value;
     numPeople = document.getElementById("totalPeople").value;
 
-function calculateTip() {
-    var billAmount = document.getElementById("billAmount").value;
-    var serviceQuality = document.getElementById("serviceQuality").value;
-    var numPeople = document.getElementById("totalPeople").value;
-
     
     if(billAmount === "" || serviceQuality == 0) {
      window.alert("Please enter some values to run this calculator!");
