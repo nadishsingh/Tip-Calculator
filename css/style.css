@@ -73,8 +73,9 @@ button:active {
     border-bottom: solid 2px #222;
     text-transform: uppercase;
     font-size: 13px;
-    padding: 20px;
+    padding: 20px 30px;
     width: 50%;
+    margin : 0 auto;
     }
 
 #reset:hover {
