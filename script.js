@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var billAmount;
 var serviceQuality;
 var numPeople;
@@ -7,12 +7,12 @@ function calculateTip() {
     billAmount = document.getElementById("billAmount").value;
     serviceQuality = document.getElementById("serviceQuality").value;
     numPeople = document.getElementById("totalPeople").value;
-=======
+
 function calculateTip() {
     var billAmount = document.getElementById("billAmount").value;
     var serviceQuality = document.getElementById("serviceQuality").value;
     var numPeople = document.getElementById("totalPeople").value;
->>>>>>> 09673ba376909ebf9b4cc30068a3425c57c37977
+
     
     if(billAmount === "" || serviceQuality == 0) {
      window.alert("Please enter some values to run this calculator!");
@@ -32,7 +32,7 @@ function calculateTip() {
     
     document.getElementById("totalTip").style.display = "block";
     document.getElementById("tip").innerHTML = total;
-<<<<<<< HEAD
+
     document.getElementById("reset").style.display = "block";
     
 }
@@ -44,23 +44,21 @@ function resetCalculator() {
      window.location.reload();
    
 }
-=======
+
     
-}
 
 
->>>>>>> 09673ba376909ebf9b4cc30068a3425c57c37977
+
+
 
 
 document.getElementById("totalTip").style.display = "none";
 document.getElementById("each").style.display = "none";
-<<<<<<< HEAD
+
 document.getElementById("reset").style.display = "none";
 
 document.getElementById("calculate").onclick = function() {calculateTip(); } ;
 
 document.getElementById("reset").onclick = function() {resetCalculator(); } ;
-=======
 
-document.getElementById("calculate").onclick = function() {calculateTip() ; } ;
->>>>>>> 09673ba376909ebf9b4cc30068a3425c57c37977
+
