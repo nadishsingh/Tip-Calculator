@@ -47,5 +47,4 @@ document.getElementById("each").style.display = "none";
 document.getElementById("reset").style.display = "none";
 
 document.getElementById("calculate").onclick = function() {calculateTip(); } ;
-
 document.getElementById("reset").onclick = function() {resetCalculator(); } ;
